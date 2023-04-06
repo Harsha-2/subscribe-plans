@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    background-color: black;
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+    color:red;
+    padding:40px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+div ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 50px;
+    font-size: 25px;
+
+}
+div ul li a {
+    text-decoration: none;
+    list-style: none;
+    color:whitesmoke;
+}
+a:hover{
+    color: red;
+}
+
+.contianer{
+ 
+    margin-top: 60px;
+    margin-left: 90px;
+    width: 500px;
+    border-radius: 25px;
+    box-shadow:  0 0 5px black;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+  cursor: pointer;
+    background-color: lightseagreen;
+}
+
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+}  
+
+.hero{
+    padding: 30px;;
+    margin-left:100px;
+    color: black;
+    font-size: 30px;
+    
+
+
+}
+.hero1{
+    padding: 30px;
+   margin-left: 8rem;
+   color: black;
+}
+h2{
+    gap: 15px;
+    padding: 15px;
+    font-size: 25px;
+}
+.subscribe{
+margin-top: 20px;
+margin-bottom: 20px;
+padding: 7px;
+width: 100%;
+height: 100;
+background-color: orange;
+border-radius: 10px;
+padding: 0.9em 0 ;
+display: inline-block;
+font-weight: 700;
+font-size: 1.3rem;
+color: white;
+cursor: pointer;
+}
+.subscribe:hover{
+background-color: aqua;
+color: black;
+z-index: 100;
+box-shadow: 0 5px 25px ;
+border-radius: 10px;
+ transform: translateY(-10px);
+}
